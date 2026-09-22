@@ -1,0 +1,151 @@
+import { Project } from "@/types";
+
+export const projectsData: Project[] = [
+  {
+    id: "remuera-architectural-kitchen",
+    title: "The Arney Residence: Modern Bespoke Kitchen",
+    category: "kitchen",
+    categoryLabel: "Kitchen Renovation",
+    suburb: "Remuera, Auckland",
+    year: "2024",
+    timeline: "7 Weeks",
+    description: "A complete transformation of a dated 1990s kitchen into a refined North American transitional culinary space. Features custom quarter-sawn white oak cabinetry, honed Calacatta marble waterfall island, integrated Miele appliances, and custom recessed architectural LED lighting.",
+    heroImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1600&q=80",
+    ],
+    beforeImage: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80",
+    afterImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    features: [
+      "Honed Calacatta Marble 3.2m Waterfall Island",
+      "Custom Rift-Cut White Oak Veneer Cabinetry",
+      "Concealed Butler's Pantry with Wine Fridge",
+      "Dimmable Architectural Linear LED Lighting",
+      "Aged Brass Perrin & Rowe Tapware",
+    ],
+    scope: "Structural wall removal, subfloor leveling, custom joinery fabrication, plumbing relocation, and complete finish installation."
+  },
+  {
+    id: "ponsonby-heritage-villa-extension",
+    title: "Ponsonby Heritage Villa Reconfiguration & Extension",
+    category: "whole-home",
+    categoryLabel: "Whole Home Renovation",
+    suburb: "Ponsonby, Auckland",
+    year: "2024",
+    timeline: "16 Weeks",
+    description: "Honouring original turn-of-the-century villa charm while opening up the rear to seamless indoor-outdoor living. Includes a vaulted open-plan kitchen and dining zone, European engineered oak herringbone flooring, and custom steel-framed cavity sliders.",
+    heroImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=80",
+    ],
+    beforeImage: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+    afterImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+    features: [
+      "Auckland Council Heritage Compliant Extension",
+      "4.2m Cathedral Ceilings with Exposed Rafters",
+      "Herringbone French Oak Engineered Timber",
+      "Flush-Threshold Stacking Glass Sliders",
+      "Underfloor Hydronic Radiator Heating",
+    ],
+    scope: "Council building consent acquisition, foundation underpinning, structural steel installation, full insulation upgrade, and interior architectural finishing."
+  },
+  {
+    id: "takapuna-coastal-master-ensuite",
+    title: "Takapuna Luxury Coastal Ensuite & Wet Room",
+    category: "bathroom",
+    categoryLabel: "Bathroom Transformation",
+    suburb: "Takapuna, Auckland",
+    year: "2023",
+    timeline: "4 Weeks",
+    description: "A calming, hotel-inspired sanctuary featuring large-format Italian porcelain slabs, fluted glass double wet room shower, custom walnut floating double vanity, and a solid freestanding composite stone tub.",
+    heroImage: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1600&q=80",
+    ],
+    beforeImage: "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=800&q=80",
+    afterImage: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=800&q=80",
+    features: [
+      "Freestanding Matte White Composite Stone Bath",
+      "Double Walk-in Wet Room with Fluted Glass Screens",
+      "Bespoke Fluted Walnut Vanity with Quartz Top",
+      "Electric Under-Tile Floor Warming & Heated Towel Rails",
+      "Gunmetal Grey In-Wall Thermostatic Mixer Valves",
+    ],
+    scope: "Demolition, Council waterproof membrane certification, custom plumbing run, acoustic insulation, and precision tiling."
+  },
+  {
+    id: "albany-entertainer-deck-pergola",
+    title: "Albany Outdoor Living & Kwila Decking Retreat",
+    category: "outdoor",
+    categoryLabel: "Decking & Outdoor Living",
+    suburb: "Albany, Auckland",
+    year: "2024",
+    timeline: "5 Weeks",
+    description: "Maximising North Shore outdoor living with a seamless multi-level Kwila hardwood deck, automated aluminium louvre roof system, integrated outdoor kitchen with stone benchtops, and flush garden lighting.",
+    heroImage: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
+    ],
+    features: [
+      "120sqm Premium Indonesian Kwila Hardwood Decking",
+      "Motorised Rain-Sensing Louvre Roof with LED Channels",
+      "Built-in Stainless Steel Beefeater BBQ & Sink Station",
+      "Frameless Toughened Glass Balustrades",
+      "Subtle Step & Planter Box Low-Voltage Accent Lighting",
+    ],
+    scope: "Ground excavation, retaining support, subframe timber framing, decking installation, electrical & louvre integration."
+  },
+  {
+    id: "epsom-contemporary-home-overhaul",
+    title: "Epsom Double Grammar Zone Complete Home Overhaul",
+    category: "whole-home",
+    categoryLabel: "Whole Home Renovation",
+    suburb: "Epsom, Auckland",
+    year: "2023",
+    timeline: "20 Weeks",
+    description: "An extensive interior and exterior reconfiguration for an Epsom family home. Included re-cladding, full thermal double-glazing retrofit, master suite wing addition, designer kitchen, and three bespoke bathrooms.",
+    heroImage: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    ],
+    features: [
+      "Full Interior Layout Re-architecting",
+      "Thermal Break Low-E Double Glazed Joinery",
+      "Three Luxury Bathrooms with Italian Stoneware",
+      "Integrated Ducted Air Conditioning & Fresh Air Ventilation",
+      "Custom Architectural Millwork Throughout",
+    ],
+    scope: "Comprehensive structural overhaul, Auckland Council consent sign-off, project management, and complete turnkey handover."
+  },
+  {
+    id: "mission-bay-designer-kitchen",
+    title: "Mission Bay Waterfront Kitchen & Scullery",
+    category: "kitchen",
+    categoryLabel: "Kitchen Renovation",
+    suburb: "Mission Bay, Auckland",
+    year: "2024",
+    timeline: "6 Weeks",
+    description: "A light-filled coastal modern kitchen engineered with micro-cement finishes, bespoke black oak veneer joinery, hidden pocket doors, and seamless waterfall breakfast bar for entertaining.",
+    heroImage: "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80",
+    galleryImages: [
+      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=80",
+    ],
+    features: [
+      "Silestone Matte Engineered Stone Countertops",
+      "Concealed Walk-In Prep Scullery with Second Sink",
+      "Soft-Close Blum Legrabox Internal Hardware",
+      "Integrated Induction Cooktop with Downdraft Extractor",
+    ],
+    scope: "Complete kitchen demolition, custom joinery installation, electrical redesign, splashback tiling, and plumbing certification."
+  }
+];
