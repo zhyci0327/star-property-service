@@ -57,8 +57,12 @@ export default function ConsultationForm() {
         body: JSON.stringify(data),
       });
 
+      const result = await res.json().catch(() => null);
+
       if (!res.ok) {
-        throw new Error("Failed to submit inquiry. Please try again or call us directly.");
+        throw new Error(
+          result?.message || "Failed to submit inquiry. Please try again or call us directly."
+        );
       }
 
       setIsSuccess(true);
